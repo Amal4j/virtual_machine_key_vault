@@ -1,0 +1,48 @@
+[
+ {
+  "RuleID": "terraform-password",
+  "Description": "Detect Terraform password variables",
+  "StartLine": 62,
+  "EndLine": 62,
+  "StartColumn": 6,
+  "EndColumn": 41,
+  "Match": "admin_password      = \"Password@123\"",
+  "Secret": "admin_password",
+  "File": "terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.3787835,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "terraform",
+   "password"
+  ],
+  "Fingerprint": "terraform.tfvars:terraform-password:62"
+ },
+ {
+  "RuleID": "terraform-password",
+  "Description": "Detect Terraform password variables",
+  "StartLine": 76,
+  "EndLine": 76,
+  "StartColumn": 6,
+  "EndColumn": 41,
+  "Match": "admin_password      = \"Password@123\"",
+  "Secret": "admin_password",
+  "File": "terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.3787835,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "terraform",
+   "password"
+  ],
+  "Fingerprint": "terraform.tfvars:terraform-password:76"
+ }
+]
