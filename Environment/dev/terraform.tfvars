@@ -58,13 +58,16 @@ vm_p = {
     resource_group_name = "dev-rg"
     location            = "uaenorth"
     size                = "Standard_D2s_v3"
-    admin_username      = "test123"
-    admin_password      = "Password@123"
+    # admin_username      = "test123"
+    # admin_password      = "Password@123"
+    key_vault_key       = "kv1"
     nic_name            = "dev-nic"
     pip_name            = "dev-ip"
     address_allocation  = "Dynamic"
     subnet_name         = "dev-subnet"
     venet_name          = "dev-vnet"
+    
+    
   }
 
   vm2 = {
@@ -72,13 +75,15 @@ vm_p = {
     resource_group_name = "prod-rg"
     location            = "centralindia"
     size                = "Standard_D2s_v3"
-    admin_username      = "test123"
-    admin_password      = "Password@123"
+    # admin_username      = "test123"
+    # admin_password      = "Password@123"
+    key_vault_key       = "kv1"
     nic_name            = "prod-nic"
     pip_name            = "prod-ip"
     address_allocation  = "Dynamic"
     subnet_name         = "prod-subnet"
     venet_name          = "prod-vnet"
+    
   }
 }
 

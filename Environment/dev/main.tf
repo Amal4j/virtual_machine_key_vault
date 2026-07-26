@@ -22,6 +22,7 @@ module "virtual_machine" {
   depends_on = [module.subnet, module.publicip]
   source     = "../../module/azurerm_virtual_machine"
   vm_c       = var.vm_p
+  az_kv_c = var.az_kv_p
 }
 module "keyvalut" {
   depends_on = [module.resource_group]
